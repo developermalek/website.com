@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+img{
+    max-width: 100%;
+}
+/* header-sectiion css */
+.header-section{
+    background-color: #fff;
+}
+.header-logo{}
+.header-logo img {
+	width: 88px;
+}
+
+.header-menu{}
+.header-menu ul{
+
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #222;
+	padding: 0px 21px;
+	line-height: 56px;
+	font-size: 17px;
+    transition: .5s;
+}
+.header-menu ul li:hover > a{
+    color: #ff4135;
+}
+.arowdown {
+	font-size: 14px;
+	opacity: .6;
+	margin-left: 5px;
+}
+/* dropDown menu */
+.header-menu ul li{
+    position: relative;
+}
+.header-menu ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    background-color: #fff;
+    color: #222;
+    border-top: 1px solid #f0f0f0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    transform: translateY(20px);
+    padding-right: 32px;
+
+}
+.header-menu ul li ul li{
+    display: block;
+    border-bottom: 1px solid #e3e3e3;
+}
+.header-menu ul li ul li a{
+    display: block;
+}
+.header-menu ul li ul li a:hover{}
+.header-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+/* banner- section css */
+.banner-section{
+    background: url(https://s3-ap-southeast-1.amazonaws.com/countrysites-tatamotors-com/countrysite/wp-content/uploads/sites/5/2016/03/18110959/gallery-banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 260px 0;
+}
+.banner-text{}
+.banner-text h3{}
+.banner-text h1{}
+.banner-text p{}
+.banner-text button{}
+/* about section css */
+.about-section{
+    background-color: #edf0f5;
+}
+.about-text {
+	margin-top: 86px;
+	padding-left: 120px;
+}
+.about-text h3 {
+	color: #606060;
+}
+.about-text h1{}
+.about-text p {
+	color: #606060;
+	opacity: .7;
+}
+.about-text .btn{
+	padding: 8px 20px;
+	border-radius: 22px;
+	transition: .5s;
+	margin-top: 30px;
+	background-color: #f9f9f9;
+	color: #111;
+	border-color: #f9f9f9 !important;
+    transition: all .5s ease-in-out;
+}
+.about-text .btn:hover{
+    color: #ff4135 !important;
+    background-color: #f9f9f9 !important;
+    box-shadow: 0px 0px 16px -7px rgb(4, 0, 0,.7);
+}
+/* services section css */
+.services-section{
+}
+.services-text{}
+.services-text h6{
+    color: #ff4135;
+}
+.services-text h2{}
+.services-text p{
+    width: 48%;
+	display: inline-block;
+}
+
+.services-items {
+	border: 1px solid #f0f0f0;
+    transition: all.5s ease-in-out;
+}
+.services-items h2 {
+	font-weight: 500;
+}
+.services-items p {
+	padding: 0 11px;
+}
+.services-items .btn {
+	border-radius: 5px;
+	padding: 7px 11px;
+	background-color: #fff !important;
+	color: #111 !important;
+	border-color: #edf0f5 !important;
+    transition: .5s ease-in-out;
+}
+.services-items .btn:hover{
+    color: #ff4135 !important;
+    background-color: #fff !important;
+}
+.services-items:hover{
+	box-shadow: 0px 0px 16px -7px rgb(4, 0, 0,.7);
+}
+/* contact-section */
+.contact-section{
+    background-color: #edf0f5;
+}
+.contact-form {
+	width: 76%;
+	margin: 0 auto;
+}
+.contact-btn {
+	background-color: #f9f9f9 !important;
+	border-color: #f0f0f0 !important;
+	color: #111 !important;
+	border-radius: 7px;
+	transition: .5s ease-in-out;
+}
+.contact-btn:hover{
+    color: #ff4135 !important;
+    background-color: #f9f9f9 !important;
+    box-shadow: 0px 0px 16px -7px rgb(4, 0, 0,.7);
+}
+/* footer */
+.footer-section{
+    background-color: #2c3e50;
+}
+.footer-social{}
+.footer-social ul{
+    list-style: none;
+}
+.footer-social ul li{
+    display: inline-block;
+}
+.footer-social ul li a {
+	color: #fff;
+	display: inline-block;
+	padding: 0px 20px;
+	line-height: 57px;
+    transition: .5s;
+}
+.footer-social ul li a:hover{
+    color: #ff4135;
+}
